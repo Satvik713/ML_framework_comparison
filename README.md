@@ -4,3 +4,11 @@ In this project I am trying to compare the accuracies and run time of different 
 Currently, we have implemented a very simple neural network for classification of digits from mnist dataset. There are three cases- torch implementation of a neural network, tinygrad implementation of a neural network and another tinygrad implemenatation of a neural network but with JIT.
 
 *What is JIT?*  
+
+**current stats of a very simple neural network for MNIST classification** -
+1. mnist_torch.py - accuracy = 0.844, Time for test set evaluation - 344 ms
+2. nn.py - accuracy = 0.844, Time for test set evaluation - 2046.22 ms
+3. nn_with_jit.py - accuracy = 0.922, Time for test set evaluation - 1360.21 ms
+
+
+*Next step is to compare these frameworks on Convolutional neural networks (CNNs)*
